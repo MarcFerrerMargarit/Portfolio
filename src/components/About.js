@@ -18,13 +18,13 @@ class About extends Component {
     return (
       <section id="about">
         <div className="col-md-12">
-          <h1 style={{ color: "black" }}>
+          <h1 style={{ color: "black", fontSize: "350%" }}>
             <span>{sectionName}</span>
           </h1>
           <div className="row center mx-auto mb-5">
             <div className="col-md-4 mb-5 center">
               <div className="polaroid">
-                <span style={{ cursor: "auto" }}>
+                <span style={{ cursor: "auto", height: "100%"}}>
                   <img
                     src={profilepic}
                     alt="Avatar placeholder"
