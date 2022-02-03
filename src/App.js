@@ -71,7 +71,7 @@ class App extends Component {
       cache: false,
       success: function (data) {
         this.setState({ sharedData: data });
-        document.title = `${this.state.sharedData.basic_info.name}`;
+        document.title = `Marc Ferrer | Portfolio`;
       }.bind(this),
       error: function (xhr, status, err) {
         alert(err);
@@ -111,7 +111,7 @@ class App extends Component {
           >
             <span
               className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
+              data-icon="twemoji-flag-for-flag-spain"
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>
